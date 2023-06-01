@@ -46,8 +46,8 @@ class QuizProvider with ChangeNotifier {
       _app_state = App_State.IS_LOADING;
       notifyListeners();
       var url = Uri.https('opentdb.com', '/api.php', {
-        'amount': '10',
-        'category': '21',
+        'amount': '20',
+        'category': '32',
         'difficulty': 'medium',
         'type': 'multiple'
       });

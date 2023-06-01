@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:quiz_app/QuestionEntry.dart';
 import 'package:quiz_app/QuizProvider.dart';
 import 'package:quiz_app/QuizScreenCard.dart';
+import 'package:quiz_app/UserInfoScreen.dart';
 import 'package:quiz_app/questionHome.dart';
 
 void main() {
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: QuestionEntry(),
+      home: UserInfoScreen(),
     );
   }
 }
